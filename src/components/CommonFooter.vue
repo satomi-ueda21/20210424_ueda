@@ -7,7 +7,7 @@
 
 <style scoped>
   .footer-bar {
-    height: 10px;
+    height: 5px;
     line-height: 70px;
   }
 

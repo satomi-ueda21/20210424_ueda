@@ -35,7 +35,7 @@
             <a href="" class="common-btn mission-btn">ミッション詳細</a>
           </div>
           <div class="mission-img">
-            <img src="assets/mission-img.jpg" alt="" />
+            <img src="./assets/mission-img.jpg" alt="" />
           </div>
         </div>
 
@@ -43,7 +43,7 @@
           <h2 class="service-title section-title">service</h2>
           <div class="service-content">
             <div class="service-img">
-              <img src="assets/service2.jpg" alt="" />
+              <img src="./assets/service2.jpg" alt="" />
             </div>
             <div class="service-content_inner">
               <h3 class="mgb-15">web制作事業</h3>
@@ -56,7 +56,7 @@
           </div>
           <div class="service-content">
             <div class="service-img service-img_second">
-              <img src="assets/service1.jpg" alt="" />
+              <img src="./assets/service1.jpg" alt="" />
             </div>
             <div class="service-content_inner service-content_inner-second">
               <h3 class="mgb-15">web制作事業</h3>
@@ -286,7 +286,7 @@ body {
 }
 
 #firstview {
-  height: 100%;
+  height: 100vh;
   background: url(assets/eyecatch.jpg) no-repeat;
   background-size: cover;
   background-position: center;
@@ -498,5 +498,54 @@ body {
   border: 1px solid #fff;
   color: #fff;
 }
+/*------------------------*/
+/*    レスポンシブデザイン   */
+/*------------------------*/
+@media screen and (max-width: 768px){
 
+.catchcopy {
+  top: 40%;
+}
+
+.news {
+  width: 100%;
+}
+
+.mission-content {
+  padding: 10% 5%;
+  width: 100%;
+}
+
+.mission-img {
+  width: 100%;
+  
+  bottom: 10%;
+  right: 0%;
+}
+
+.service-img {
+  width: 100%;
+  margin-left: 0%;
+}
+
+.service-content_inner {
+  position: static;
+  left: 0%;
+  width: 100%;
+}
+
+.service-btn {
+  margin:  auto;
+}
+
+.recruit-company_size {
+  width: 100%;
+  height: 200px;
+}
+
+.faq {
+  width: 100%;
+}
+
+}
 </style>
