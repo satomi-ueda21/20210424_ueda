@@ -38,14 +38,16 @@ export default {
   data(){
     return{
       isClass:false
+      
     };
   },
   methods:{
     hamburger(){
       this.isClass=!this.isClass;
+       
     }
-  }
-};
+  } 
+}
 </script>
 
 <style scoped>

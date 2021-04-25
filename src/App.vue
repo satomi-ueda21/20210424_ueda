@@ -102,8 +102,8 @@
           <a href="" class="common-btn contact-btn">お問い合わせへ</a>
         </div>
     </main>
-   <CommonHeader></CommonHeader>
-   <CommonFooter></CommonFooter>
+    <CommonHeader></CommonHeader>
+    <CommonFooter></CommonFooter>
   </div>
 </html>
 </template>
